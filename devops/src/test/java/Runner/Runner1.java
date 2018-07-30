@@ -30,7 +30,7 @@ package Runner;
 		  @AfterTest
 		  public void afterTest() {
 			 
-			 System.out.println("Running");
+			 System.out.println("Running1");
 			 //driver.close();
 		  
 	}
