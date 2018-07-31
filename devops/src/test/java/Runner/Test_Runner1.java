@@ -8,7 +8,7 @@ package Runner;
 	import org.testng.annotations.BeforeTest;
 	import org.testng.annotations.Test;
 
-	class Runner1 {
+	class Test_Runner1 {
 		WebDriver driver;
 		  @Test
 		  public void test() throws InterruptedException {
@@ -23,7 +23,7 @@ package Runner;
 		  public void beforeTest() throws InterruptedException {
 			  System.setProperty("webdriver.gecko.driver","E:\\gecko\\geckodriver.exe");
 			  driver=new FirefoxDriver();
-			  driver.get("http://ec2-18-191-84-26.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
+			  driver.get("http://ec2-18-188-226-22.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
 			  //sThread.sleep(5000);
 		  }
 
