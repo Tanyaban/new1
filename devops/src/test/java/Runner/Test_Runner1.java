@@ -18,10 +18,11 @@ package Runner;
 			  //Thread.sleep(5000);
 			  driver.findElement(By.xpath("//*[@type='submit']")).click();
 			  Thread.sleep(5000);
+			  System.out.println("hello1");
 		  }
 		  @BeforeTest
 		  public void beforeTest() throws InterruptedException {
-			  System.setProperty("webdriver.gecko.driver","E:\\gecko\\geckodriver.exe");
+			  System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 			  driver=new FirefoxDriver();
 			  driver.get("http://ec2-18-188-226-22.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
 			  //sThread.sleep(5000);
