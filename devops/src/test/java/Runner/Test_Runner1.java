@@ -24,7 +24,7 @@ package Runner;
 		  public void beforeTest() throws InterruptedException {
 			  System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 			  driver=new FirefoxDriver();
-			  driver.get("http://ec2-18-188-226-22.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
+			  driver.get("http://ec2-18-222-213-91.us-east-2.compute.amazonaws.com/TestWebapp/");
 			  //sThread.sleep(5000);
 		  }
 
